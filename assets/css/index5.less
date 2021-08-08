@@ -1,0 +1,331 @@
+// banner
+.banner{
+    .carousel{
+        .carousel-inner{
+           .item{
+               .carousel-caption{
+                   .bo{
+                       background: url('../images/he1.png') no-repeat bottom center;
+                       margin-bottom: 1vw;
+                       padding-bottom: 1em;
+
+                       h3{
+                           font-size: 3em;
+                           
+                       }
+                   } 
+                   .do{
+                       p{
+                           font-size: 1.5em;
+                       }
+                   }
+                } 
+                
+            }
+        }
+    } 
+    @media screen and (max-width:700px) {
+        &{
+            .carousel{
+                .carousel-inner{
+                    .item{
+                         .carousel-caption{
+                             .bo{
+                                 .name{
+                                     font-size: 2.5em;
+                                 }
+                             }
+                             .do{
+                                 p{
+                                     font-size: 1em;
+                                 }
+                                  
+                             
+                             }
+                         }
+                    }  
+                } 
+            }
+        }
+    }
+    // iphone 6/7/8
+    @media screen and (max-width:480px) {
+        &{
+            .carousel{
+                .carousel-inner{
+                    .item{
+                         .carousel-caption{
+                             .bo{
+                                 .name{
+                                     font-size: 1em;
+                                 }
+                             }
+                             .do{
+                                 p{
+                                     font-size: .3em;
+                                 }
+                                  
+                             
+                             }
+                         }
+                    }  
+                } 
+            }
+           
+        }
+    }
+}
+
+// 业务项目
+.ximu{
+    padding: 5em 0em 2em;
+    .subject{
+        text-align: center;
+        background: url('../images/he2.png') no-repeat bottom center;
+        padding-bottom: 1.5em;
+        margin-bottom: 3em;
+        p{
+            font-size: 1.5em;
+            color: #b3b3b3;
+        }
+        h2{
+            font-size: 3em;
+        }
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2em;
+
+        .time{
+            text-align: center;
+            img{
+                width: 100%;
+                margin-bottom: 2em;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            h2{
+                font-size: 2em;
+            }
+        }
+    }
+
+    @media screen and (max-width:700px) {
+        &{
+           .list{
+                .time{
+                    width: 30%;
+                    h2{
+                        font-size: 1.6em;
+                    }
+                }
+           } 
+        }
+    }
+}
+
+// 业务范围
+.mete{
+    padding: 5em 0em 2em;
+    .subject{
+        text-align: center;
+        background: url('../images/he2.png') no-repeat bottom center;
+        padding-bottom: 1.5em;
+        margin-bottom: 3em;
+        p{
+            font-size: 1.5em;
+            color: #b3b3b3;
+        }
+        h2{
+            font-size: 3em;
+        }
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+
+        .itme{
+            width: 25%;
+            text-align: center;
+            position: relative;
+
+            img{
+                width: 100%;
+            }
+            .inof{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                
+                .opg{
+                    background: url('../images/he3.png') no-repeat bottom center;
+                    margin-bottom: 1em;
+                    h2{
+                        font-size: 2.7em;
+                        margin-top: 4em;
+                        padding-bottom: .5em;
+                        color: #fff;
+                    }
+                }
+
+                .teac{
+                    padding: 0px 2em;
+                    p{
+                        color: #fff;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1024px) {
+        &{
+            .list{
+                .itme{
+                    width: 45%;
+                    margin-bottom: 2em;
+
+                    .inof{
+                        .opg{
+                            h2{
+                                font-size: 3em;
+                                margin-top: 2em;
+                            }
+                        }
+                        .teac{
+                            p{
+                                font-size: 1.1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:700px) {
+        &{
+            padding: 3em 0em;
+            .list{
+                flex-wrap: wrap;
+                .itme{
+                    width: 45%;
+                    margin-bottom: 2em;
+
+                    .inof{
+                        .opg{
+                            h2{
+                                font-size: 2em;
+                                margin-top: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        &{
+            .list{
+                .itme{
+                    .inof{
+                        .opg{
+                            h2{
+                                font-size: 2em;
+                                margin-top: 1em;
+                            }
+                        }
+                        .teac{
+                            p{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        &{
+            .list{
+                .itme{
+                    .inof{
+                        .opg{
+                            h2{
+                                font-size: 1.5em;
+                                margin-top: 1em;
+                            }
+                        }
+                        .teac{
+                            p{
+                                font-size: .8em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 联系我们
+.lianxi{
+    padding: 5em 0em 5em;
+    .subject{
+        text-align: center;
+        background: url('../images/he2.png') no-repeat bottom center;
+        padding-bottom: 1.5em;
+        margin-bottom: 3em;
+        p{
+            font-size: 1.5em;
+            color: #b3b3b3;
+        }
+        h2{
+            font-size: 3em;
+        }
+    }
+
+    .list{
+        display: flex;
+        justify-content: space-around;
+        .item{
+            width: 20%;
+            text-align: center;
+            img{
+                margin-bottom: 1em;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            h2{
+                font-size: 2em;
+            }
+            p{
+                color: #d9d9d9;
+            }
+            
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        &{
+            .list{
+                flex-wrap: wrap;
+                .item{
+                    width: 35%;
+                    margin-bottom: 1em;
+                }
+            }
+        }
+    }
+
+}

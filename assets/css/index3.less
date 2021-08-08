@@ -1,0 +1,180 @@
+// banner
+.banner{
+    .carousel{
+        .carousel-inner{
+           .item{
+               .carousel-caption{
+                    .bo{
+                        background: url('../images/he1.png') no-repeat bottom center;
+                        margin-bottom: 1em;
+                        padding-bottom: 1em;
+                        h3{
+                            font-size: 3em;
+                        }
+                    } 
+                    .do{
+                        p{
+                            font-size: 1.5em;
+                        }
+                    }
+                } 
+                
+            }
+        }
+    } 
+
+
+    @media screen and (max-width:700px) {
+        &{
+            .carousel{
+                .carousel-inner{
+                    .item{
+                        .carousel-caption{
+                            .bo{
+                                padding-bottom: 1em;
+                                .name{
+                                    font-size: 2.5em;
+                                }
+                            }
+                            .do{
+                                p{
+                                    font-size: 1em;
+                                }
+                                  
+                             
+                            }
+                        }
+                    }  
+                } 
+            }
+        }
+    }
+    // iphone 6/7/8
+    @media screen and (max-width:480px) {
+        &{
+            .carousel{
+                .carousel-inner{
+                    .item{
+                         .carousel-caption{
+                             .bo{
+                                 padding-bottom: .3em;
+                                 
+                                 .name{
+                                     font-size: 1.4em;
+                                 }
+                             }
+                             .do{
+                                 p{
+                                     font-size: .3em;
+                                 }
+                                  
+                             }
+                         }
+                    }  
+                } 
+            }
+           
+        }
+    }
+}
+
+// 新闻中心
+.zhoxi{
+    padding: 5em 0em 5em;
+    .subject{
+        text-align: center;
+        background: url('../images/he2.png') no-repeat bottom center;
+        padding-bottom: 1.5em;
+        margin-bottom: 3em;
+        p{
+            font-size: 1.5em;
+            color: #b3b3b3;
+        }
+        h2{
+            font-size: 3em;
+        }
+    }
+    .list{
+        .item{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2vw;
+            
+            .left{
+                width: 13%;
+                text-align: center;
+                color: #fff;
+                background: #5389f5;
+                padding-bottom: 1.5em;
+                margin-right: 1em;
+                h1{
+                    font-size: 3em;
+                }
+                p{
+                    font-size: 1.5em;
+                    
+                }
+            }
+            .right{
+                width: 85%;
+                .top{
+                    font-size: 1.5em;
+                }
+                .inol{
+                    font-size: .8em;
+                    color: #959595;
+                }
+                .bottom{
+                    color: #5389f5;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:700px) {
+        &{
+            .list{
+                .item{
+                    .left{
+                        width: 46%;
+                        text-align: center;
+                        h1{
+                            font-size: 6em;
+                        }
+                    }
+                    .right{
+                        .top{
+                            p{
+                                font-size: .7em;
+                            }
+                        }
+                        .inol{
+                            p{
+                                font-size: .5em;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        &{
+            .list{
+                .item{
+                    .left{
+                        width: 47%;
+                        text-align: center;
+                        h1{
+                            font-size: 9em;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
